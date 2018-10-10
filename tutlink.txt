@@ -1,0 +1,1 @@
+http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-maven/http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-maven/
