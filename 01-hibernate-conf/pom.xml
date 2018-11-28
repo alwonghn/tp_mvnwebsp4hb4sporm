@@ -18,11 +18,11 @@
 	<version>${hibernate.version}</version>
    </dependency>
 <!-- The tutorials use the PostgreSQL 10.5.0 database -->
-   <dependency>
-	<groupId>org.postgresql</groupId>
-	<artifactId>postgresql</artifactId>
-	<version>10.5-0-jdbc41</version>
-    </dependency>
+	<dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.2.5</version>
+	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

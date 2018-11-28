@@ -1,4 +1,4 @@
-package demo.entity;
+package com.jvmhub.tutorial.entity;
 
 import java.io.Serializable;
 
@@ -40,4 +40,5 @@ public class AppUser implements Serializable {
 	public void setLogin(String login) {
 		this.login = login;
 	}
+
 }
