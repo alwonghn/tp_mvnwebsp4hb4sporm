@@ -1,3 +1,5 @@
+
+(aws: works- mvn + hibernate + postgresql - no spring)
 tut: http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-maven/
 http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-maven/
 source: https://github.com/jvmhub/Hibernate-and-PostgreSLQ-configuration-with-Maven

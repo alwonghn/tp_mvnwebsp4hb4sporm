@@ -40,7 +40,7 @@ public class AppTest extends TestCase
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
  
-		AppUser user = new AppUser("firstuser");
+		AppUser user = new AppUser("seconduser");
 		session.save(user);
  
 		session.getTransaction().commit();
