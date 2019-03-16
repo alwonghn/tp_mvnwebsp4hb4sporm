@@ -4,3 +4,19 @@ tut: http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-ma
 http://jvmhub.com/2014/10/22/hibernate-and-postgresql-configuration-with-maven/
 source: https://github.com/jvmhub/Hibernate-and-PostgreSLQ-configuration-with-Maven
 sourcemycopy: https://drive.google.com/open?id=13vSrWbO_xsiB5lX8XBTj3YmxdXQUl455
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

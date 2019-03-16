@@ -1,4 +1,4 @@
-package com.jvmhub.tutorial.entity;
+package demo.entity;
 
 import java.io.Serializable;
 
