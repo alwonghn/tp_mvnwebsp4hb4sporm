@@ -8,5 +8,7 @@
 </head>
 <body>
 <h2>Hello World!</h2>
+<a href="./hello">Call Hello</a><br/>
+<a href="./helloagain">Call Hello again</a>
 </body>
 </html>
