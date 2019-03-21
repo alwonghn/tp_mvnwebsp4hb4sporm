@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany.app</groupId>
-	<artifactId>tp_mvnwebhb4annopg</artifactId>
+	<artifactId>tp_mvnwebsp4hb4annopgnoorm</artifactId>
 	<version>1</version>
 	<packaging>war</packaging>
 	<properties>
 		<java.version>1.8</java.version>
-		<hibernate.version>4.2.15.Final</hibernate.version>
+		<hibernate.version>4.3.5.Final</hibernate.version>
 		<postgresql.version>42.2.5</postgresql.version>
 		<org.springframework-version>4.0.6.RELEASE</org.springframework-version>
 	</properties>
@@ -18,10 +18,25 @@
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
         </dependency>
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>${hibernate.version}</version>
+		</dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <version>${hibernate.version}</version>
+        </dependency>
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jdbc</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${org.springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

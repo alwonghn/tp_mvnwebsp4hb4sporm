@@ -9,7 +9,7 @@
         <property name="show_sql">true</property>
         <property name="format_sql">false</property>
 		<property name="hbm2ddl.auto">create-drop</property>
-        <!--mapping resource="demo/model/Student.hbm.xml"/-->
-        <mapping class="demo.entity.AppUser"/>
+        <mapping resource="demo/entity/AppUser.hbm.xml"/>
+        <!--mapping class="demo.entity.AppUser"/-->
     </session-factory>
 </hibernate-configuration>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="tp_mvnwebhb4annopg-1">
+    <wb-module deploy-name="tp_mvnwebsp4hb4annopgnoorm-1">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="tp_mvnwebhb4annopg"/>
-        <property name="java-output-path" value="/tp_mvnwebhb4annopg/target/classes"/>
+        <property name="context-root" value="tp_mvnwebsp4hb4annopgnoorm"/>
+        <property name="java-output-path" value="/tp_mvnwebsp4hb4annopgnoorm/target/classes"/>
     </wb-module>
 </project-modules>

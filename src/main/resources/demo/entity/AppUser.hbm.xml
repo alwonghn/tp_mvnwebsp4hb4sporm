@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "- //Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="demo.entity">
+	<class name="AppUser" table="appuser">
+		<id name="id" type="long" column="id">
+			<generator class="native"/>
+		</id>		
+		<property name="login" column="login" type="string"/>
+	</class>
+</hibernate-mapping>

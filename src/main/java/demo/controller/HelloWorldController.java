@@ -11,6 +11,7 @@ public class HelloWorldController {
  
     @RequestMapping(value="/hello", method = RequestMethod.GET)
     public String sayHello(ModelMap model) {
+    	System.out.println("INTO HelloWorldController /hello method");
         model.addAttribute("greeting", "Hello World from Spring 4 MVC");
         return "welcome";
     }
