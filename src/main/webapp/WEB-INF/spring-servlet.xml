@@ -16,10 +16,23 @@
             <value>.jsp</value>
         </property>
     </bean>
-	<bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver"/>
 		<property name="url" value="jdbc:postgresql://localhost/evaluate"/>
 		<property name="username" value="evaluate"/>
 		<property name="password" value="evaluate"/>
+	</bean>
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+	    <property name="dataSource" ref="dataSource" />
+	    <property name="configLocation" value="classpath:hibernate.cfg.xml" />
+	</bean>
+	<bean id="appUserDao" class="demo.dao.AppUserDaoImpl">
+	    <constructor-arg>
+	        <ref bean="sessionFactory" />
+	    </constructor-arg>
+	</bean>
+	<bean id="transactionManager"
+	    class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+	    <property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 </beans>
